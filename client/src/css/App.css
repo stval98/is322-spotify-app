@@ -34,3 +34,7 @@ button{
 button:hover {
   background-color: #FF6347;
 }
+
+.page-tabs .nav-link {
+  cursor: pointer;
+}

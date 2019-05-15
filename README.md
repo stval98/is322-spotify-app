@@ -12,44 +12,34 @@ for this assignment.
 
 There are a few options for the project summarized below:
 
-Option 1: Banking Application
-----------------------------------
-This option is for students that really just want to create a full application in React/Redux
-without coming up with an original idea of their own. It’s a basic banking application that allows
-to user to Add, Edit, and Delete Accounts, as well as adjust their balance. Keeping a log of all
-changes to the account balance with a separate transactions table. Requirements, details, and
-screenshots for this project can be found below.
+Option 3: Something Else - SPOTIFY APP
+--
+This option is for students that want to do something interesting in React/Redux that doesn’t
+exactly meet the specifications of Option 2 (Custom Application with Requirements). These
+projects will need to be cleared by me first, but feel free to ask if you have something in mind.
+Keep in mind this is a replacement for the final project, and as a result should be complex and
+interesting enough to warrant replacing Option 1 or Option 2.
+
+![Currently Playing Solange](https://github.com/stval98/is322-spotify-app/master/Example.png)
+
+***IMPORTANT INFORMATION***
+
+To properly use this application:
+1. cd to `client` directory
+2. run `npm start`
+3. open a new terminal (while keeping the other open)
+4. cd to `auth-server`
+5. run `node app.js`
+6. click `Now Playing` tab
+7. login to spotify
+8. play a song on spotify (on another tab/device)
+9. check what's playing!
 
 **Description**
 
-This project requires you to make a basic banking application that follows these requirements. It should have a list of accounts and their current balance (stored in Redux). A list of transactions for all modifications made to the balance of each account (also stored in redux). Then ways to deposit and withdraw money, as well as add and delete existing accounts. A Video of this project working fully can be found in Moodle under Final Project Requirements.
-
-**Requirements**
-1. Display a list of all accounts and their current balance on the home page.
-    1. Accounts should be retrieved from an API (JSON Test Server) and stored in ReduxState.
-    2. Can use my API with Data I already setup
-    3. See Redux Containers and State Video in Moodle
-    4. See Making API Requests Video in Moodle
-    5. See Making API Requests with Redux Video in Moodle
-2. Keep a record of all transactions for each account. These should be displayed on a transactions
-page. (Filters are not needed but are always good for extra credit)
-    1. Accounts should be retrieved from an API (JSON Test Server) and stored in Redux State.
-3. An account page that should:
-    1. Display the accounts information, balance, and transaction history.
-    2. Account ID and info should be retrieved from the URL
-    3. Button to Delete and Edit the account
-    4. Ability to add and deposit money to account. This should create a new transaction record as well as update the balance for the account everywhere it’s displayed
-    5. Resources
-    6. See Redux Containers and State Video in Moodle
-    7. See Working with Lists Video in Moodle
-    8. See Redux Actions and Changing State Video in Moodle
-    9. See React Router Video in Moodle
-4. Add Account Page (3+ Members Only)
-    1. A form with the ability to create a new account with an initial balance
-    2. See Redux Actions and Changing State Video in Moodle
-5. Edit Account Page (3+ Members Only)
-    1. A form with the ability to change an accounts name and current balance
-    2. A transaction should be created to withdraw or deposit money to match new balance.
+This option by it’s very nature doesn’t really have requirements. If you have a React/Redux project you
+feel is interesting and complex enough to justify being a final project, talk to me and we can work out
+what exactly you need to do.
 
 **General Requirements for All Options**
 1. All code must be in GitHub by the due date. Anything later will be disregarded.
@@ -67,7 +57,7 @@ be testing.
 
 **Important:**
 1. Track changes to your code using GitHub
-2. Submit your GitHub link to the app on Moodl, if you missed one of them, you get 20% off
+2. Submit your GitHub link to the app on Moodle, if you missed one of them, you get 20% off
 from full credit.
 3. ***NO LATE PROJECTS***
 4. You will receive a grade for the project as a whole, and an individual grade for your
