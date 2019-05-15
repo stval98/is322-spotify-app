@@ -20,10 +20,10 @@ projects will need to be cleared by me first, but feel free to ask if you have s
 Keep in mind this is a replacement for the final project, and as a result should be complex and
 interesting enough to warrant replacing Option 1 or Option 2.
 
-![Currently Playing Solange](https://github.com/stval98/is322-spotify-app/master/Example.png)
+![Currently Playing Solange](https://github.com/stval98/is322-spotify-app/blob/master/Example.png)
 
 ***IMPORTANT INFORMATION***
-
+--
 To properly use this application:
 1. cd to `client` directory
 2. run `npm start`
