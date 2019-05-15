@@ -35,6 +35,8 @@ To properly use this application:
 8. play a song on spotify (on another tab/device)
 9. check what's playing!
 
+This app utilizes [Spotify's Web API](https://github.com/jmperez/spotify-web-api-js) and [Spotify's Web API authorization instructions (authorization code)](https://github.com/spotify/web-api-auth-examples).
+
 **Description**
 
 This option by it’s very nature doesn’t really have requirements. If you have a React/Redux project you
